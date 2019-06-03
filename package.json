@@ -1,0 +1,23 @@
+{
+	"name": "apollo-express-demo",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "babel-watch index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"license": "MIT",
+	"dependencies": {
+		"apollo-server-express": "^2.6.1",
+		"express": "^4.17.1",
+		"graphql": "^14.3.1"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.7.0",
+		"babel-watch": "^2.0.7"
+	}
+}
